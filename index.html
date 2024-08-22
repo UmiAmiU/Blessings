@@ -4,9 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Blessings</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+      body {
+          background-image: url('/3.gif');
+          background-size: cover;
+          height: 100vh;
+          padding:0;
+          margin:0;
+          display: flex; 
+          height: 100%; 
+          flex-direction: column;
+          padding-left: 10px;
+          padding-right: 10px;
+          overflow: hidden;
+      }
+    </style>
   </head>
   <body>
+    <video autoplay loop muted plays-inline src="3.mp4" type="video/mp4" style="position: absolute; top: 0; left: 0; width: 100%; z-index: -1;"></video>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
